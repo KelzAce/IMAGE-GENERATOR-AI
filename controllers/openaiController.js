@@ -36,7 +36,8 @@ const generateImage = async (req, res) => {
     }
     res.status(400).json({
       success: false,
-      error: "This image could not be generated. Please try again.",
+      error:
+        "This image could not be generated, Due to OPENAI policy, please docs. and search for something different.",
     });
   }
 };
