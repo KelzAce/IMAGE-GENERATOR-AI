@@ -33,14 +33,14 @@
         <form id="image-form">
           <h1>Describe An Image</h1>
           <div class="form-control">
-            <input type="text" id="prompt" placeholder="Enter Text" />
+            <input type="text" id="prompt" placeholder="Enter Text" class="input-field" />
           </div>
           <!-- size -->
           <div class="form-control">
-            <select name="size" id="size">
-              <option value="small">Small</option>
-              <option value="medium" selected>Medium</option>
-              <option value="large">Large</option>
+            <select name="size" id="size" width="400" style="width: 80%">
+              <option class="option" value="small">Small</option>
+              <option class="option" value="medium" selected>Medium</option>
+              <option class="option" value="large">Large</option>
             </select>
           </div>
           <button type="submit" class="btn">Generate</button>
